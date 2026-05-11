@@ -29,7 +29,9 @@ import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
-
+import codehub from './codehub.png'
+import codehub2 from './codehub2.png'
+import codehub3 from './codehub3.jpg'
 
 export const company_logos = [
   microsoft_logo,
@@ -41,6 +43,9 @@ export const company_logos = [
 ]
 
 const assets = {
+  codehub3,
+  codehub2,
+  codehub,
   logo,
   arrow_icon,
   group_profile,

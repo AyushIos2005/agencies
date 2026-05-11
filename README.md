@@ -1,16 +1,97 @@
-# React + Vite
+# 🚀 VGI Agencies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern AI-powered digital agency website built using React, Vite, and modern UI/UX principles.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://your-live-link.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Modern Responsive UI
+- AI Agency Landing Page
+- Smooth Animations
+- Mobile Friendly Design
+- Fast Vite Performance
+- Interactive Components
+- Optimized Assets
+- Professional Navbar & Hero Section
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- CSS3
+- HTML5
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+ ├── assets/
+ ├── components/
+ ├── App.jsx
+ ├── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AyushIos2005/agencies.git
+```
+
+Go to project folder:
+
+```bash
+cd agencies
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🚀 Deployment
+
+Deployed on Vercel.
+
+---
+
+## 📸 Screenshots
+
+Add your project screenshots here.
+
+---
+
+## 👨‍💻 Author
+
+Ayush Verma
+
+GitHub:
+https://github.com/AyushIos2005
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.

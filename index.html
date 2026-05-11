@@ -7,114 +7,63 @@
   <meta charset="UTF-8" />
 
   <!-- Responsive -->
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Title -->
-  <title>
-    CODEHUB | Modern Web Development Agency
-  </title>
+  <title>CODEHUB | Modern Web Development Agency</title>
 
   <!-- SEO Meta -->
-  <meta
-    name="description"
-    content="CODEHUB is a modern digital agency providing web development, UI/UX design, branding, SEO, and software solutions for startups and businesses."
-  />
+  <meta name="description" content="CODEHUB is a modern digital agency providing web development, UI/UX design, branding, SEO, and software solutions for startups and businesses." />
 
-  <meta
-    name="keywords"
-    content="CODEHUB, web development, digital agency, UI UX design, branding, SEO services, software company, React developer"
-  />
+  <meta name="keywords" content="CODEHUB, web development, digital agency, UI UX design, branding, SEO services, software company, React developer" />
 
-  <meta
-    name="author"
-    content="CODEHUB"
-  />
+  <meta name="author" content="CODEHUB" />
 
-  <meta
-    name="robots"
-    content="index, follow"
-  />
+  <meta name="robots" content="index, follow" />
 
   <!-- Theme Color -->
-  <meta
-    name="theme-color"
-    content="#0f172a"
-  />
+  <meta name="theme-color" content="#0f172a" />
 
-  <!-- Favicon -->
-  <link
-    rel="icon"
-    type="image/svg+xml"
-    href="/src/assets/favicon.ico"
-  />
+  <!-- Favicon (FIXED for production) -->
+  <link rel="icon" href="/src/assets/favicon.ico" />
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-
-  <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;800&display=swap"
-    rel="stylesheet"
-  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet" />
 
   <!-- Open Graph -->
-  <meta
-    property="og:title"
-    content="CODEHUB | Modern Development Agency"
-  />
+  <meta property="og:title" content="CODEHUB | Modern Development Agency" />
+  <meta property="og:description" content="We craft futuristic websites, digital experiences, branding, and scalable software solutions." />
 
-  <meta
-    property="og:description"
-    content="We craft futuristic websites, digital experiences, branding, and scalable software solutions."
-  />
-
-  <meta
-    property="og:image"
-    content="https://yourdomain.com/preview.jpg"
-  />
-
-  <meta
-    property="og:url"
-    content="https://yourdomain.com"
-  />
-
-  <meta
-    property="og:type"
-    content="website"
-  />
+  <!-- IMPORTANT: replace with your real Vercel link -->
+  <meta property="og:url" content="https://vgiagencies.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://vgiagencies.vercel.app//preview.jpg" />
 
   <!-- Twitter Card -->
-  <meta
-    name="twitter:card"
-    content="summary_large_image"
-  />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CODEHUB" />
+  <meta name="twitter:description" content="Modern websites and digital solutions for startups and businesses." />
+  <meta name="twitter:image" content="https://vgiagencies.vercel.app//preview.jpg" />
 
-  <meta
-    name="twitter:title"
-    content="CODEHUB"
-  />
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://vgiagencies.vercel.app/" />
 
-  <meta
-    name="twitter:description"
-    content="Modern websites and digital solutions for startups and businesses."
-  />
-
-  <meta
-    name="twitter:image"
-    content="https://yourdomain.com/preview.jpg"
-  />
-
-  <!-- Canonical -->
-  <link
-    rel="canonical"
-    href="https://yourdomain.com"
-  />
+  <!-- Structured Data (SEO Boost) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CODEHUB",
+    "url": "https://vgiagencies.vercel.app/",
+    "logo": "https://vgiagencies.vercel.app//logo.png",
+    "description": "Modern digital agency and development solutions.",
+    "sameAs": [
+      "https://github.com/AyushIos2005"
+    ]
+  }
+  </script>
 
 </head>
 
@@ -123,24 +72,8 @@
   <!-- React Root -->
   <div id="root"></div>
 
-  <!-- Main Entry -->
-  <script
-    type="module"
-    src="/src/main.jsx"
-  ></script>
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "CODEHUB",
-    "url": "https://codehub.com",
-    "logo": "https://codehub.com/logo.png",
-    "description": "Modern digital agency and development solutions.",
-    "sameAs": []
-  }
-  </script>
+  <!-- Vite Entry -->
+  <script type="module" src="/src/main.jsx"></script>
 
 </body>
 

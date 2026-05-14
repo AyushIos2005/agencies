@@ -428,7 +428,7 @@ const Navbar = ({ theme, setTheme }) => {
 
   {/* Logo */}
   <img
-    src={assets.codehub3}
+    src={assets.codehub4}
     alt="CODEHUB Logo"
     className="
       relative z-10

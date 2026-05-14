@@ -252,7 +252,7 @@ const Footer = ({ theme }) => {
             >
               <a href="#hero" className="footer-logo-wrap">
                 <img
-                  src={assets.codehub2}
+                  src={assets.codehub4}
                   alt="Company Logo"
                   style={{ height: '3rem', width: 'auto' }}
                 />

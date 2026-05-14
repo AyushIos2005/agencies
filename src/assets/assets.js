@@ -32,7 +32,7 @@ import moon_icon from './moon_icon.svg'
 import codehub from './codehub.png'
 import codehub2 from './codehub2.png'
 import codehub3 from './codehub3.jpg'
-
+import codehub4 from './CODEHUB_logo.png'
 export const company_logos = [
   microsoft_logo,
   zoom_logo,
@@ -43,6 +43,7 @@ export const company_logos = [
 ]
 
 const assets = {
+  codehub4,
   codehub3,
   codehub2,
   codehub,
